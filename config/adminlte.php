@@ -307,20 +307,13 @@ return [
 
         // Sidebar items:
         [
-            'type' => 'sidebar-menu-search',
+            'type' => 'sideb`ar-menu-search',
             'text' => 'search',
         ],
         [
             'text' => 'blog',
             'url' => 'admin/blog',
             'can' => 'manage-blog',
-        ],
-        [
-            'text' => 'pages',
-            'url' => 'admin/pages',
-            'icon' => 'far fa-fw fa-file',
-            'label' => 4,
-            'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
         [
@@ -334,59 +327,20 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'multilevel',
+            'text' => 'Data Master',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Program Studi',
+                    'url' => '/program-studi',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'Fakuiltas',
+                    'url' => '/fakultas',
                 ],
             ],
         ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
-        ],
+        
     ],
 
     /*
